@@ -1,0 +1,40 @@
+@use "../../styles/utils/variables" as var;
+@use "../../styles/utils/placeholders" as *;
+@use "../../styles/utils/mixins" as mx;
+
+.buttons {
+  display: flex;
+  gap: 6px;
+
+  padding: 4px 8px;
+  max-width: 70px;
+  width: 100%;
+
+  @include mx.mq($bp: "tab") {
+    color: var.$dark-color;
+  }
+}
+
+.button {
+  transition: color 0.3s ease;
+
+  &:active {
+    color: var.$accent-color;
+  }
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      color: var.$accent-color;
+    }
+  }
+}
+
+.activeLanguage {
+  color: var.$accent-color;
+
+  border-bottom: solid 1px var.$accent-color;
+  // padding: 4px 8px;
+
+  // box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

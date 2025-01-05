@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "portfolio": "Portfolio",
+    "contacts": "Kontakte"
+  },
+  "actions": {
+    "writeMe": "Sreiben Sie mir"
+  }
+}

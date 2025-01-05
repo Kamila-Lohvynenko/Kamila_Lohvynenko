@@ -1,0 +1,16 @@
+@use "../../styles/utils/mixins" as mx;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navWrapper,
+.linkWrapper {
+  display: none;
+
+  @include mx.mq("tab") {
+    display: block;
+  }
+}

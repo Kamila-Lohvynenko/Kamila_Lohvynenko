@@ -1,0 +1,41 @@
+@use "../../styles/utils/variables" as var;
+@use "../../styles/utils/placeholders" as *;
+@use "../../styles/utils/mixins" as mx;
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  @include mx.mq($bp: "tab", $type: max) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.link {
+  @extend %button-link-text;
+
+  padding: 12px 0;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  transition: color 0.3s ease;
+
+  &:active {
+    color: var.$accent-color;
+  }
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      color: var.$accent-color;
+    }
+  }
+}
+
+.active {
+  color: var.$accent-color;
+  border-bottom: solid 1px var.$accent-color;
+}

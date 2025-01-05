@@ -1,0 +1,82 @@
+@use '../../styles/utils/variables' as var;
+@use '../../styles/utils/mixins' as mx;
+@use '../../styles/utils/placeholders' as *;
+
+.icon {
+  width: 14px;
+  height: 14px;
+
+  fill: black;
+  stroke: black;
+
+  z-index: 103;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal {
+  z-index: 1001;
+}
+.modalContent {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton {
+  @include mx.flex-center;
+
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  background-color: rgba($color: var.$dark-color, $alpha: 0.2);
+
+  border: 1px solid rgba($color: var.$accent-color, $alpha: 0.5);
+
+  @include mx.mq($bp: 'tab') {
+    width: 48px;
+    height: 48px;
+  }
+
+  & {
+    transition: box-shadow 0.3s ease;
+  }
+
+  &:active {
+    box-shadow: inset 5px 5px 10px rgba(var.$accent-color, 0.3);
+  }
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      box-shadow: inset 5px 5px 10px rgba(var.$accent-color, 0.3);
+    }
+  }
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+
+  stroke: rgba($color: var.$accent-color, $alpha: 0.5);
+  fill: rgba($color: var.$accent-color, $alpha: 0.5);
+}

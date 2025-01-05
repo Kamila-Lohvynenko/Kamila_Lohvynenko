@@ -1,0 +1,47 @@
+@use "../../styles/utils/variables" as var;
+@use "../../styles/utils/placeholders" as *;
+@use "../../styles/utils/mixins" as mx;
+
+.logo {
+  display: flex;
+  align-items: baseline;
+
+  cursor: pointer;
+
+  transition: border 0.3s ease;
+
+  &:active .letter {
+    color: var.$accent-color;
+  }
+
+  &:active .dot {
+    color: var.$dark-color;
+  }
+
+  @media (hover: hover) {
+    &:hover .letter,
+    &:focus .letter {
+      color: var.$accent-color;
+    }
+
+    &:hover .dot,
+    &:focus .dot {
+      color: var.$dark-color;
+    }
+  }
+}
+
+.letter {
+  font-size: 32px;
+  font-weight: 700;
+
+  transition: color 0.3s ease;
+}
+
+.dot {
+  font-size: 108px;
+  color: var.$accent-color;
+  line-height: 0;
+
+  transition: color 0.3s ease;
+}

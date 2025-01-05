@@ -1,0 +1,29 @@
+@use "../../../styles/utils/variables" as var;
+@use "../../../styles/utils/mixins" as mx;
+
+.button {
+  display: block;
+  @include mx.mq("tab") {
+    display: none;
+  }
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+
+  fill: var.$accent-color;
+
+  transition: fill 0.3s ease;
+
+  &:active {
+    fill: var.$accent-color;
+  }
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      fill: var.$accent-color;
+    }
+  }
+}

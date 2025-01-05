@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "booking": "Booking",
+    "contacts": "Contacts",
+    "aftercare": "Aftercare",
+    "clients": "Clients"
+  },
+  "actions": {
+    "writeMe": "Write me"
+  }
+}
