@@ -6,5 +6,11 @@
   },
   "actions": {
     "writeMe": "Sreiben Sie mir"
+  },
+  "heroSection": {
+    "titlePart1": "Frontend",
+    "titlePart2": "Entwicklerin",
+    "subtitle": "Hallo! Ich bin Kamila!",
+    "text": ""
   }
 }

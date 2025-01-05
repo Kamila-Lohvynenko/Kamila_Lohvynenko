@@ -5,6 +5,8 @@ const HomePage = () => {
   return (
     <div className={styles.page}>
       <ChangeLanguageBtn />
+      <div className={styles.content}></div>
+      <div className={styles.im}></div>
     </div>
   );
 };
