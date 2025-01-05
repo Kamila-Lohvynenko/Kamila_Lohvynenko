@@ -9,10 +9,6 @@
   padding: 4px 8px;
   max-width: 70px;
   width: 100%;
-
-  @include mx.mq($bp: "tab") {
-    color: var.$dark-color;
-  }
 }
 
 .button {
