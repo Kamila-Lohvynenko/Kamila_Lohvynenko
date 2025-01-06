@@ -6,7 +6,7 @@
   display: flex;
   gap: 24px;
 
-  padding: 24px;
+  padding: 18px;
 
   background-color: var.$light-color;
   border-radius: 15px;
@@ -14,23 +14,39 @@
   &:not(:last-child) {
     margin-bottom: 24px;
   }
+
+  @include mx.mq($bp: "tab") {
+    padding: 24px;
+  }
+
+  @include mx.mq($bp: "desk", $type: max) {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 .imageWrapper {
   @include mx.flex-center;
 
-  padding: 10px;
+  padding: 4px;
 
   border-radius: 20px;
   border: solid 1px var.$accent-color;
   flex-shrink: 0;
+
+  @include mx.mq($bp: "tab") {
+    padding: 10px;
+  }
 }
 
 .image {
-  width: 500px;
+  width: 280px;
   height: auto;
-  min-height: 200px;
   border-radius: 12px;
+
+  @include mx.mq($bp: "tab") {
+    width: 500px;
+  }
 }
 
 .title {

@@ -10,12 +10,16 @@
 }
 
 .item {
-  padding: 12px 28px;
+  padding: 8px 20px;
 
   background-color: var.$light-color;
   border-radius: 100px;
 
   font-weight: 600;
+
+  @include mx.mq($bp: "tab") {
+    padding: 12px 28px;
+  }
 }
 
 .accent {
