@@ -14,4 +14,12 @@ export type TranslationType = {
     text: string;
     techSkills: string;
   };
+  portfolio: {
+    title: string;
+    aquaTrack: string;
+    nannyServices: string;
+    contactsBook: string;
+    battleField: string;
+    travelTracks: string;
+  };
 };

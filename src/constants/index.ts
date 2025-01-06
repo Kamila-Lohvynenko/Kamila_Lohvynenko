@@ -23,7 +23,7 @@ export const SKILLS = {
     ["Express", ".js"],
     ["Mongo", "DB"],
   ],
-  Nanny_Services: [
+  NANNY_SERVICES: [
     ["HTML"],
     ["CSS"],
     ["SASS"],
@@ -32,14 +32,14 @@ export const SKILLS = {
     ["Redux"],
     ["Fire", "base"],
   ],
-  CONTACTS: [
+  CONTACTS_BOOK: [
     ["HTML"],
     ["CSS"],
     ["Java", "Script"],
     ["React", ".js"],
     ["Redux"],
   ],
-  BATTLE_SHIP: [["HTML"], ["CSS"], ["Type", "Script"], ["React", ".js"]],
+  BATTLE_FIELD: [["HTML"], ["CSS"], ["Type", "Script"], ["React", ".js"]],
   TRAVEL_TRACKS: [
     ["HTML"],
     ["CSS"],

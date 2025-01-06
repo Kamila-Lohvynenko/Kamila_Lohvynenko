@@ -16,5 +16,13 @@
     "subtitle": "Hi! I am Kamila!",
     "text": "I am a passionate and detail-oriented Frontend Developer with a solid foundation in HTML, CSS, SCSS, JavaScript, TypeScript, and React. I am highly motivated, resourceful, and committed to continuous self-improvement, with a strong ability to independently research and learn new technologies to deliver high-quality, user-focused solutions. I aim to contribute to innovative projects by delivering user-friendly and performant web applications while continuing to grow as a frontend developer.",
     "techSkills": "My hard skills:"
+  },
+  "portfolio": {
+    "title": "There are my pet projects. I am happy to share them with you!",
+    "aquaTrack": "A responsive hydration tracking web app. Role: Team Lead, developer. Responsibilities included deploying the project, implementing the App component (managing routes using React Router DOM), Modal component, Redux integration, NotFoundPage, and an image-saving mechanism using Cloudinary. Conducted code reviews and coordinated team efforts.",
+    "nannyServices": "Web application for finding and saving nannies. Users can browse, filter, add, and remove nannies from favorites. Features include authentication, real-time data updates, and pagination. The app has pages for „Home“, „Nannies“ und „Favorites“. Registration and login are implemented as modal windows. Individual project.",
+    "contactsBook": "Application for saving contacts. There is an opportunity to add, delete, edit and search a contact. Application consists of 4 pages: „Home“, „Contacts“, „Registration“ und „Log in“. Individual project.",
+    "battleField": "A web-based Battleship game built with React, where ships are randomly placed at the start for both the player and the opponent. The game features a clean, simple interface with turn-based gameplay and real-time feedback on hits and misses. Visual effects make the experience more engaging, and the app is fully responsive. Deployed on Vercel for fast and reliable performance, this project highlights my skills in building interactive UI, managing state, and implementing game logic.",
+    "travelTracks": "A modern web application for browsing and managing classified ads. The platform allows users to browse through categories, filter ads, view detailed product descriptions, and save favorites. Key features include responsive design, smooth page navigation, and optimized loading for a seamless user experience. This project demonstrates expertise in building dynamic web applications with React, state management, and implementing efficient filtering and routing mechanisms."
   }
 }

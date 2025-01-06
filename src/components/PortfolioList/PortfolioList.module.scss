@@ -1,0 +1,44 @@
+@use "../../styles/utils/variables" as var;
+@use "../../styles/utils/placeholders" as *;
+@use "../../styles/utils/mixins" as mx;
+
+.item {
+  display: flex;
+  gap: 24px;
+
+  padding: 24px;
+
+  background-color: var.$light-color;
+  border-radius: 15px;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.imageWrapper {
+  @include mx.flex-center;
+
+  padding: 10px;
+
+  border-radius: 20px;
+  border: solid 1px var.$accent-color;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+  min-height: 200px;
+  border-radius: 12px;
+}
+
+.title {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 12px;
+}
