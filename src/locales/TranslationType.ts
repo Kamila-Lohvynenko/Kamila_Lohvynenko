@@ -12,5 +12,6 @@ export type TranslationType = {
     titlePart2: string;
     subtitle: string;
     text: string;
+    techSkills: string;
   };
 };

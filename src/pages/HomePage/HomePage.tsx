@@ -3,6 +3,8 @@ import styles from "./HomePage.module.scss";
 import myPhoto from "../../images/my_photo.jpeg";
 
 import { useTranslation } from "react-i18next";
+import SkillsList from "../../components/SkillsList/SkillsList";
+import { SKILLS } from "../../constants";
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -25,6 +27,8 @@ const HomePage = () => {
           <img className={styles.image} src={myPhoto} alt="my photo" />
         </div>
       </div>
+      <h3 className={styles.listTitle}>{t("heroSection.techSkills")}</h3>
+      <SkillsList list={SKILLS.ALL} />
     </div>
   );
 };

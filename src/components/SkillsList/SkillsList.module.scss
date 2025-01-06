@@ -1,0 +1,23 @@
+@use "../../styles/utils/variables" as var;
+@use "../../styles/utils/placeholders" as *;
+@use "../../styles/utils/mixins" as mx;
+
+.list {
+  display: flex;
+  gap: 8px;
+
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 12px 28px;
+
+  background-color: var.$light-color;
+  border-radius: 100px;
+
+  font-weight: 600;
+}
+
+.accent {
+  color: var.$accent-dark-color;
+}
