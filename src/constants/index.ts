@@ -48,3 +48,26 @@ export const SKILLS = {
     ["Redux"],
   ],
 };
+
+export const LINKS = {
+  AQUA_TRACK: {
+    LIVE: "https://final-project-frontend-weld.vercel.app/",
+    GITHUB: "https://github.com/Kamila-Lohvynenko/final-project-frontend",
+  },
+  NANNY_SERVICES: {
+    LIVE: "https://nannies-service-six.vercel.app/",
+    GITHUB: "https://github.com/Kamila-Lohvynenko/nannies-service",
+  },
+  PHONE_BOOK: {
+    LIVE: "https://goit-react-hw-08-sigma-ruddy.vercel.app/",
+    GITHUB: "https://github.com/Kamila-Lohvynenko/goit-react-hw-08",
+  },
+  BATTLE_FIELD: {
+    LIVE: "https://battleship-game-beige.vercel.app/",
+    GITHUB: "https://github.com/Kamila-Lohvynenko/battleship-game",
+  },
+  TRAVEL_TRACK: {
+    LIVE: "https://adverts-pearl.vercel.app/",
+    GITHUB: "https://github.com/Kamila-Lohvynenko/adverts",
+  },
+};

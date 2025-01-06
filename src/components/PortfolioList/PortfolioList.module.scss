@@ -3,9 +3,6 @@
 @use "../../styles/utils/mixins" as mx;
 
 .item {
-  display: flex;
-  gap: 24px;
-
   padding: 18px;
 
   background-color: var.$light-color;
@@ -14,7 +11,11 @@
   &:not(:last-child) {
     margin-bottom: 24px;
   }
+}
 
+.itemWrapper {
+  display: flex;
+  gap: 24px;
   @include mx.mq($bp: "tab") {
     padding: 24px;
   }
@@ -57,4 +58,56 @@
 
 .description {
   margin-top: 12px;
+}
+
+.linksWrapper {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+
+  @include mx.mq($bp: "desk", $type: max) {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+
+    margin-top: 14px;
+  }
+}
+
+.link {
+  @include mx.flex-center;
+  gap: 4px;
+
+  text-decoration: underline;
+  cursor: pointer;
+
+  transition: color 0.3s ease;
+
+  transition: color 0.3s ease;
+
+  &:active,
+  &:focus {
+    color: var.$accent-color;
+  }
+
+  &:active > .icon,
+  &:focus > .icon {
+    fill: var.$accent-color;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: var.$accent-color;
+    }
+  }
+  &:hover > .icon {
+    fill: var.$accent-color;
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+
+  transition: fill 0.3s ease;
 }
