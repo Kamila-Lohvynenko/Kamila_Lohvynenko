@@ -4,13 +4,13 @@ import sprite from "../../images/sprite.svg";
 
 import { useTranslation } from "react-i18next";
 import { CONTACTS } from "../../constants";
-// import { useState } from "react";
+import { useState } from "react";
 
 const ContactsPage = () => {
   const { t } = useTranslation();
 
-  // const [isTelegramShown, setIsTelegramShown] = useState<boolean>(false);
-  // const [isWhatsappShown, setIsWhatsappShown] = useState<boolean>(false);
+  const [isTelegramShown, setIsTelegramShown] = useState<boolean>(false);
+  const [isWhatsappShown, setIsWhatsappShown] = useState<boolean>(false);
 
   return (
     <div className={styles.page}>
@@ -26,7 +26,7 @@ const ContactsPage = () => {
             <svg className={styles.icon}>
               <use href={`${sprite}#icon-linkedin`} />
             </svg>
-            LinkedIN
+            LinkedIn
           </a>
         </li>
         <li className={styles.item}>
@@ -50,12 +50,30 @@ const ContactsPage = () => {
           </a>
         </li>
         <li className={styles.item}>
-          <a className={styles.link} href={CONTACTS.TELEGRAM} target="blank">
-            <svg className={styles.icon}>
-              <use href={`${sprite}#icon-telegram`} />
-            </svg>
-            Telegram
-          </a>
+          <div className={styles.linkButtonWrapper}>
+            <a className={styles.link} href={CONTACTS.TELEGRAM} target="blank">
+              <svg className={styles.icon}>
+                <use href={`${sprite}#icon-telegram`} />
+              </svg>
+              Telegram
+            </a>
+            <button
+              onClick={() => setIsTelegramShown(!isTelegramShown)}
+              className={styles.buttonArrow}
+              type="button"
+            >
+              <svg className={styles.iconButton}>
+                <use
+                  href={`${sprite}#icon-${
+                    isTelegramShown ? "arrow-up" : "arrow-down"
+                  }`}
+                />
+              </svg>
+            </button>
+          </div>
+          {isTelegramShown && (
+            <p className={styles.number}>{CONTACTS.UKR_PHONE}</p>
+          )}
         </li>
         <li className={styles.item}>
           <a
@@ -70,16 +88,34 @@ const ContactsPage = () => {
           </a>
         </li>
         <li className={styles.item}>
-          <a
-            className={styles.link}
-            href={`tel:${CONTACTS.WHATSAPP}`}
-            target="blank"
-          >
-            <svg className={styles.icon}>
-              <use href={`${sprite}#icon-whatsapp`} />
-            </svg>
-            <p>WhatsApp</p>
-          </a>
+          <div className={styles.linkButtonWrapper}>
+            <a
+              className={styles.link}
+              href={`tel:${CONTACTS.WHATSAPP}`}
+              target="blank"
+            >
+              <svg className={styles.icon}>
+                <use href={`${sprite}#icon-whatsapp`} />
+              </svg>
+              <p>WhatsApp</p>
+            </a>
+            <button
+              onClick={() => setIsWhatsappShown(!isWhatsappShown)}
+              className={styles.buttonArrow}
+              type="button"
+            >
+              <svg className={styles.iconButton}>
+                <use
+                  href={`${sprite}#icon-${
+                    isWhatsappShown ? "arrow-up" : "arrow-down"
+                  }`}
+                />
+              </svg>
+            </button>
+          </div>
+          {isWhatsappShown && (
+            <p className={styles.number}>{CONTACTS.UKR_PHONE}</p>
+          )}
         </li>
       </ul>
     </div>
