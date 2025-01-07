@@ -71,3 +71,13 @@ export const LINKS = {
     GITHUB: "https://github.com/Kamila-Lohvynenko/adverts",
   },
 };
+
+export const CONTACTS = {
+  GITHUB: "https://github.com/Kamila-Lohvynenko",
+  TELEGRAM: "https://t.me/kamila_lohvynenko",
+  EMAIL: "kamila.lohvynenko@gmail.com",
+  PHONE: "+4917626657118",
+  WHATSAPP: "'https://wa.me/380991219631'",
+  LINKEDIN: "https://www.linkedin.com/in/kamila-lohvynenko-3929b1307/",
+  UKR_PHONE: "+380991219631",
+};

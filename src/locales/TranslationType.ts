@@ -22,4 +22,11 @@ export type TranslationType = {
     battleField: string;
     travelTracks: string;
   };
+  contactsPage: {
+    title: {
+      part1: string;
+      accent: string;
+      part2: string;
+    };
+  };
 };
