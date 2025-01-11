@@ -15,7 +15,7 @@
     "techSkills": "Meine Hard Skills:"
   },
   "portfolio": {
-    "title": "Das sind meine Nebenprojekte. Ich freue mich, sie mit Ihnen zu teilen!",
+    "title": "Das sind meine Projekte. Ich freue mich, sie mit Ihnen zu teilen!",
     "aquaTrack": "Eine responsive Web-App zur Verfolgung der Flüssigkeitszufuhr. Rolle: Teamleiter, Entwickler. Zu den Aufgaben gehörten die Bereitstellung des Projekts, die Implementierung der App-Komponente (Verwaltung der Routen mit React Router DOM), der Modal-Komponente, die Integration von Redux, die NotFoundPage und ein Bildspeicherungsmechanismus mit Cloudinary. Ich habe Code-Reviews durchgeführt und die Teamarbeit koordiniert.",
     "nannyServices": "Webanwendung zur Suche und Speicherung von Nannys. Benutzer können Nannys durchsuchen, filtern, zu Favoriten hinzufügen und aus den Favoriten entfernen. Zu den Funktionen gehören Authentifizierung, Echtzeit-Datenaktualisierungen und Pagination. Die App verfügt über Seiten für „Startseite“, „Nannys“ und „Favoriten“. Registrierung und Login sind als Modalfenster implementiert. Einzelprojekt.",
     "contactsBook": "Anwendung zum Speichern von Kontakten. Es besteht die Möglichkeit, Kontakte hinzuzufügen, zu löschen, zu bearbeiten und zu durchsuchen. Die Anwendung besteht aus 4 Seiten: „Startseite“, „Kontakte“, „Registrierung“ und „Login“. Einzelprojekt.",

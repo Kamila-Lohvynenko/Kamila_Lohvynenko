@@ -18,7 +18,7 @@
     "techSkills": "My hard skills:"
   },
   "portfolio": {
-    "title": "There are my pet projects. I am happy to share them with you!",
+    "title": "There are my projects. I am happy to share them with you!",
     "aquaTrack": "A responsive hydration tracking web app. Role: Team Lead, developer. Responsibilities included deploying the project, implementing the App component (managing routes using React Router DOM), Modal component, Redux integration, NotFoundPage, and an image-saving mechanism using Cloudinary. Conducted code reviews and coordinated team efforts.",
     "nannyServices": "Web application for finding and saving nannies. Users can browse, filter, add, and remove nannies from favorites. Features include authentication, real-time data updates, and pagination. The app has pages for „Home“, „Nannies“ und „Favorites“. Registration and login are implemented as modal windows. Individual project.",
     "contactsBook": "Application for saving contacts. There is an opportunity to add, delete, edit and search a contact. Application consists of 4 pages: „Home“, „Contacts“, „Registration“ und „Log in“. Individual project.",
