@@ -111,3 +111,19 @@
 
   transition: fill 0.3s ease;
 }
+
+.unorderedList {
+  list-style: circle;
+}
+
+.unorderedList li {
+  margin: 10px 0;
+  margin-left: 30px;
+
+  text-transform: none;
+}
+
+.unorderedList li::marker {
+  color: var.$accent-dark-color;
+  font-weight: bold;
+}

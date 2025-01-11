@@ -21,6 +21,9 @@ export type TranslationType = {
     contactsBook: string;
     battleField: string;
     travelTracks: string;
+    tattooWebsite: string;
+    check: string;
+    visit: string;
   };
   contactsPage: {
     title: {

@@ -21,7 +21,15 @@
     "contactsBook": "Anwendung zum Speichern von Kontakten. Es besteht die Möglichkeit, Kontakte hinzuzufügen, zu löschen, zu bearbeiten und zu durchsuchen. Die Anwendung besteht aus 4 Seiten: „Startseite“, „Kontakte“, „Registrierung“ und „Login“. Einzelprojekt.",
     "battleField": "Ein webbasiertes „Schiffe versenken“-Spiel, entwickelt mit React, bei dem die Schiffe zu Beginn des Spiels sowohl für den Spieler als auch für den Gegner zufällig platziert werden. Das Spiel bietet eine klare, einfache Benutzeroberfläche mit rundenbasiertem Gameplay und Echtzeit-Feedback bei Treffern und Fehlschüssen. Visuelle Effekte sorgen für ein noch spannenderes Erlebnis, und die Anwendung ist vollständig responsiv. Das Projekt wurde mit Vercel bereitgestellt, um eine schnelle und zuverlässige Performance zu gewährleisten, und demonstriert meine Fähigkeiten im Erstellen interaktiver Benutzeroberflächen, im State-Management und in der Umsetzung der Spiellogik",
     "travelTracks": "Eine moderne Webanwendung zum Durchsuchen und Verwalten von Kleinanzeigen. Die Plattform ermöglicht es den Nutzern, Kategorien zu durchsuchen, Anzeigen zu filtern, detaillierte Produktbeschreibungen anzusehen und Favoriten zu speichern. Zu den wichtigsten Funktionen gehören ein responsives Design, eine nahtlose Navigation und optimiertes Laden für ein reibungsloses Nutzungserlebnis. Dieses Projekt demonstriert Fachkenntnisse im Erstellen dynamischer Webanwendungen mit React, im State-Management sowie in der Umsetzung effizienter Filter- und Routing-Mechanismen",
-    "check": "Sie können die Live-Seite und den Code hier ansehen:"
+    "tattooWebsite": "Eine moderne, benutzerorientierte Website für Logvinenko Tattoo, die ihr künstlerisches Portfolio und ihre Serviceangebote präsentiert.",
+    "tattooWebsiteTasks": [
+      "Implementierung eines sicheren Authentifizierungssystems, das dem Kunden ermöglicht, sich einzuloggen und sein Portfolio durch Hinzufügen, Bearbeiten und Löschen von Projekten sowie durch das Einsehen von Kundenanfragen zu verwalten.",
+      "Enge Zusammenarbeit mit dem Kunden, um Anforderungen zu definieren und das Design an die Markenvision und den künstlerischen Stil anzupassen.",
+      "Erstellung einer responsiven, mobilfreundlichen Benutzeroberfläche mit benutzerdefinierten Animationen und optimiertem SEO zur Verbesserung der Sichtbarkeit und Benutzerinteraktion.",
+      "Entwicklung eines integrierten Buchungs- und Kontaktformularsystems, um Kundenanfragen zu verbessern und nahtlose Interaktionen mit Kunden zu ermöglichen."
+    ],
+    "check": "Sie können die Live-Seite und den Code hier ansehen:",
+    "visit": "Sie können die Web-Seite hier ansehen:"
   },
   "contactsPage": {
     "title": {

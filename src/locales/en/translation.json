@@ -8,7 +8,7 @@
     "clients": "Clients"
   },
   "actions": {
-    "writeMe": "Write me"
+    "writeMe": "Contact me"
   },
   "heroSection": {
     "titlePart1": "Frontend",
@@ -24,7 +24,15 @@
     "contactsBook": "Application for saving contacts. There is an opportunity to add, delete, edit and search a contact. Application consists of 4 pages: „Home“, „Contacts“, „Registration“ und „Log in“. Individual project.",
     "battleField": "A web-based Battleship game built with React, where ships are randomly placed at the start for both the player and the opponent. The game features a clean, simple interface with turn-based gameplay and real-time feedback on hits and misses. Visual effects make the experience more engaging, and the app is fully responsive. Deployed on Vercel for fast and reliable performance, this project highlights my skills in building interactive UI, managing state, and implementing game logic.",
     "travelTracks": "A modern web application for browsing and managing classified ads. The platform allows users to browse through categories, filter ads, view detailed product descriptions, and save favorites. Key features include responsive design, smooth page navigation, and optimized loading for a seamless user experience. This project demonstrates expertise in building dynamic web applications with React, state management, and implementing efficient filtering and routing mechanisms.",
-    "check": "You can check live page and code here:"
+    "tattooWebsite": "A modern, user-focused website for Logvinenko Tattoo, showcasing their artistic portfolio and service offerings",
+    "tattooWebsiteTasks": [
+      "Implemented a secure authentication system, enabling the client to log in and manage their portfolio by adding, editing, and deleting projects, as well as viewing client inquiries.",
+      "Collaborated closely with the client to define requirements and align the design with their brand vision and artistic ethos.",
+      "Created a responsive, mobile-friendly interface with custom animations and optimized SEO to improve visibility and user engagement.",
+      "Developed an integrated booking and contact system, improving customer inquiries and facilitating seamless client interactions."
+    ],
+    "check": "You can check live page and code here:",
+    "visit": "You can visit website here"
   },
   "contactsPage": {
     "title": {

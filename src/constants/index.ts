@@ -47,6 +47,17 @@ export const SKILLS = {
     ["React", ".js"],
     ["Redux"],
   ],
+  TATTOO_WEBSITE: [
+    ["HTML"],
+    ["CSS"],
+    ["SASS"],
+    ["Type", "Script"],
+    ["React", ".js"],
+    ["Redux"],
+    ["Node", ".js"],
+    ["Express", ".js"],
+    ["Mongo", "DB"],
+  ],
 };
 
 export const LINKS = {
@@ -70,6 +81,7 @@ export const LINKS = {
     LIVE: "https://adverts-pearl.vercel.app/",
     GITHUB: "https://github.com/Kamila-Lohvynenko/adverts",
   },
+  TATTOO_WEBSITE: "https://www.logvinenko-tattoo.com/",
 };
 
 export const CONTACTS = {
