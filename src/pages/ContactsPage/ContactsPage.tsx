@@ -4,13 +4,13 @@ import sprite from "../../images/sprite.svg";
 
 import { useTranslation } from "react-i18next";
 import { CONTACTS } from "../../constants";
-import { useState } from "react";
+// import { useState } from "react";
 
 const ContactsPage = () => {
   const { t } = useTranslation();
 
-  const [isTelegramShown, setIsTelegramShown] = useState<boolean>(false);
-  const [isWhatsappShown, setIsWhatsappShown] = useState<boolean>(false);
+  // const [isTelegramShown, setIsTelegramShown] = useState<boolean>(false);
+  // const [isWhatsappShown, setIsWhatsappShown] = useState<boolean>(false);
 
   return (
     <div className={styles.page}>
@@ -57,7 +57,7 @@ const ContactsPage = () => {
               </svg>
               Telegram
             </a>
-            <button
+            {/* <button
               onClick={() => setIsTelegramShown(!isTelegramShown)}
               className={styles.buttonArrow}
               type="button"
@@ -69,11 +69,11 @@ const ContactsPage = () => {
                   }`}
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
-          {isTelegramShown && (
+          {/* {isTelegramShown && (
             <p className={styles.number}>{CONTACTS.UKR_PHONE}</p>
-          )}
+          )} */}
         </li>
         <li className={styles.item}>
           <a
@@ -99,7 +99,7 @@ const ContactsPage = () => {
               </svg>
               <p>WhatsApp</p>
             </a>
-            <button
+            {/* <button
               onClick={() => setIsWhatsappShown(!isWhatsappShown)}
               className={styles.buttonArrow}
               type="button"
@@ -111,11 +111,11 @@ const ContactsPage = () => {
                   }`}
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
-          {isWhatsappShown && (
+          {/* {isWhatsappShown && (
             <p className={styles.number}>{CONTACTS.UKR_PHONE}</p>
-          )}
+          )} */}
         </li>
       </ul>
     </div>
